@@ -1,6 +1,6 @@
 {
   "name": "@liwei.com/command",
-  "version": "0.0.1",
+  "version": "0.0.2",
   "description": "common command class",
   "author": "李玮 <505805473@qq.com>",
   "homepage": "",
@@ -16,5 +16,9 @@
   "scripts": {
     "test": "node ./__tests__/command.test.js"
   },
-  "type": "module"
+  "type": "module",
+  "gitHead": "9286a25722659208f064288ef57862cc3e51095e",
+  "publishConfig": {
+    "access": "public"
+  }
 }

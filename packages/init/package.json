@@ -1,6 +1,6 @@
 {
   "name": "@liwei.com/init",
-  "version": "0.0.1",
+  "version": "0.0.2",
   "description": "init command",
   "author": "李玮 <505805473@qq.com>",
   "homepage": "",
@@ -20,5 +20,9 @@
     "@liwei.com/command": "^0.0.1",
     "@liwei.com/utils": "^0.0.1"
   },
-  "type": "module"
+  "type": "module",
+  "gitHead": "9286a25722659208f064288ef57862cc3e51095e",
+  "publishConfig": {
+    "access": "public"
+  }
 }
