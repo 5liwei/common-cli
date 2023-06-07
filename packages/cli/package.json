@@ -1,6 +1,6 @@
 {
   "name": "@liwei.com/cli",
-  "version": "0.0.0",
+  "version": "0.0.1",
   "description": "liwei cli",
   "author": "李玮 <505805473@qq.com>",
   "homepage": "",
@@ -21,8 +21,8 @@
     "test": "jest"
   },
   "dependencies": {
-    "@liwei.com/init": "^0.0.0",
-    "@liwei.com/utils": "^0.0.0",
+    "@liwei.com/init": "^0.0.1",
+    "@liwei.com/utils": "^0.0.1",
     "chalk": "^5.2.0",
     "commander": "^10.0.1",
     "dirname-filename-esm": "^1.1.1",
