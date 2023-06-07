@@ -1,0 +1,24 @@
+{
+  "name": "@liwei.com/init",
+  "version": "0.0.0",
+  "description": "init command",
+  "author": "李玮 <505805473@qq.com>",
+  "homepage": "",
+  "license": "ISC",
+  "main": "lib/index.js",
+  "directories": {
+    "lib": "lib",
+    "test": "__tests__"
+  },
+  "files": [
+    "lib"
+  ],
+  "scripts": {
+    "test": "node ./__tests__/init.test.js"
+  },
+  "dependencies": {
+    "@liwei.com/command": "^0.0.0",
+    "@liwei.com/utils": "^0.0.0"
+  },
+  "type": "module"
+}

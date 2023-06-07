@@ -1,0 +1,15 @@
+0 silly argv {
+0 silly argv   _: [ 'add' ],
+0 silly argv   dev: true,
+0 silly argv   D: true,
+0 silly argv   globs: [ 'packages/cli' ],
+0 silly argv   lernaVersion: '6.6.2',
+0 silly argv   '$0': 'D:\\NODE\\node_global\\node_modules\\lerna\\dist\\cli.js',
+0 silly argv   pkg: 'jset'
+0 silly argv }
+1 notice cli v6.6.2
+2 verbose rootPath D:\_learn\脚手架开发\项目\cli-liwei
+3 error HttpErrorGeneral: 404 Not Found - GET https://registry.npmjs.org/jset - Not found
+3 error     at D:\_learn\脚手架开发\项目\cli-liwei\node_modules\npm-registry-fetch\lib\check-response.js:95:15
+3 error     at processTicksAndRejections (node:internal/process/task_queues:96:5)
+3 error     at async RegistryFetcher.packument (D:\_learn\脚手架开发\项目\cli-liwei\node_modules\pacote\lib\registry.js:87:19)

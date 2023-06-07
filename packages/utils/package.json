@@ -1,0 +1,23 @@
+{
+  "name": "@liwei.com/utils",
+  "version": "0.0.0",
+  "description": "cli-lw utils",
+  "author": "李玮 <505805473@qq.com>",
+  "homepage": "",
+  "license": "ISC",
+  "main": "lib/index.js",
+  "directories": {
+    "lib": "lib",
+    "test": "__tests__"
+  },
+  "files": [
+    "lib"
+  ],
+  "scripts": {
+    "test": "node ./__tests__/utils.test.js"
+  },
+  "dependencies": {
+    "npmlog": "^7.0.1"
+  },
+  "type": "module"
+}
