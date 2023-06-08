@@ -1,4 +1,0 @@
-53 error Error: Command failed with exit code 128: git push --follow-tags --no-verify --atomic origin master
-53 error fatal: unable to access 'https://github.com/5liwei/common-cli.git/': Could not resolve host: github.com
-53 error     at makeError (D:\_learn\脚手架开发\项目\cli-liwei\node_modules\execa\lib\error.js:59:11)
-53 error     at handlePromise (D:\_learn\脚手架开发\项目\cli-liwei\node_modules\execa\index.js:114:26)
