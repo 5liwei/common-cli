@@ -1,0 +1,8 @@
+15 error Error: Command failed with exit code 1: git remote update
+15 error fatal: unable to access 'https://github.com/5liwei/common-cli.git/': Failed to connect to github.com port 443 after 21103 ms: Timed out
+15 error     at makeError (D:\_learn\脚手架开发\项目\cli-liwei\node_modules\execa\lib\error.js:59:11)
+15 error     at Function.module.exports.sync (D:\_learn\脚手架开发\项目\cli-liwei\node_modules\execa\index.js:186:17)
+15 error     at Object.execSync (D:\_learn\脚手架开发\项目\cli-liwei\node_modules\@lerna\child-process\index.js:39:16)
+15 error     at updateRemote (D:\_learn\脚手架开发\项目\cli-liwei\node_modules\lerna\dist\cli.js:5910:22)
+15 error     at isBehindUpstream (D:\_learn\脚手架开发\项目\cli-liwei\node_modules\lerna\dist\cli.js:5900:7)
+15 error     at VersionCommand.initialize (D:\_learn\脚手架开发\项目\cli-liwei\node_modules\lerna\dist\cli.js:6235:57)
