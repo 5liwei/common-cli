@@ -1,6 +1,6 @@
 {
   "name": "@liwei.com/init",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "init command",
   "author": "李玮 <505805473@qq.com>",
   "homepage": "",
@@ -17,8 +17,8 @@
     "test": "node ./__tests__/init.test.js"
   },
   "dependencies": {
-    "@liwei.com/command": "^0.0.1",
-    "@liwei.com/utils": "^0.0.1"
+    "@liwei.com/command": "^1.0.1",
+    "@liwei.com/utils": "^1.0.1"
   },
   "type": "module",
   "gitHead": "9286a25722659208f064288ef57862cc3e51095e",
