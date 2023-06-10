@@ -18,7 +18,12 @@
   },
   "dependencies": {
     "@liwei.com/command": "^1.0.2",
-    "@liwei.com/utils": "^1.0.2"
+    "@liwei.com/utils": "^1.0.2",
+    "ejs": "^3.1.9",
+    "execa": "^7.1.1",
+    "glob": "^8.0.3",
+    "ora": "^6.3.1",
+    "path-exists": "^5.0.0"
   },
   "type": "module",
   "gitHead": "9286a25722659208f064288ef57862cc3e51095e",

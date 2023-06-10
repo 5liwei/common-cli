@@ -1,14 +1,16 @@
-53 error Error: Command failed with exit code 1: npm install --package-lock-only --ignore-scripts
-53 error npm ERR! code E404
-53 error npm ERR! 404 Not Found - GET https://registry.npmjs.org/@liwei.com%2finit - Not found
-53 error npm ERR! 404
-53 error npm ERR! 404  '@liwei.com/init@^0.0.1' is not in this registry.
-53 error npm ERR! 404
-53 error npm ERR! 404 Note that you can also install from a
-53 error npm ERR! 404 tarball, folder, http url, or git url.
-53 error
-53 error npm ERR! A complete log of this run can be found in: D:\NODE\node_cache\_logs\2023-06-08T00_11_30_766Z-debug-0.log
-53 error     at makeError (D:\_learn\脚手架开发\项目\cli-liwei\node_modules\execa\lib\error.js:59:11)
-53 error     at handlePromise (D:\_learn\脚手架开发\项目\cli-liwei\node_modules\execa\index.js:114:26)
-53 error     at processTicksAndRejections (node:internal/process/task_queues:96:5)
-53 error     at async Promise.all (index 0)
+0 silly argv {
+0 silly argv   _: [ 'add' ],
+0 silly argv   globs: [ 'packages/utils' ],
+0 silly argv   lernaVersion: '6.6.2',
+0 silly argv   '$0': 'D:\\NODE\\node_global\\node_modules\\lerna\\dist\\cli.js',
+0 silly argv   pkg: 'inquirer'
+0 silly argv }
+1 notice cli v6.6.2
+2 verbose rootPath D:\_learn\脚手架开发\项目\cli-liwei
+3 error FetchError: request to https://registry.npmjs.org/inquirer failed, reason: connect ETIMEDOUT 104.16.22.35:443
+3 error     at ClientRequest.<anonymous> (D:\_learn\脚手架开发\项目\cli-liwei\node_modules\npm-registry-fetch\node_modules\minipass-fetch\lib\index.js:130:14)
+3 error     at ClientRequest.emit (node:events:527:28)
+3 error     at TLSSocket.socketErrorListener (node:_http_client:454:9)
+3 error     at TLSSocket.emit (node:events:539:35)
+3 error     at emitErrorNT (node:internal/streams/destroy:157:8)
+3 error     at emitErrorCloseNT (node:internal/streams/destroy:122:3)
